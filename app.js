@@ -96,6 +96,8 @@ app.delete('/users/:id', (req, res) => {
     res.status(200).json(eliminado);
 });
 
-app.listen(PUERTO, () => {
-    console.log(`Servidor corriendo en http://localhost:${PUERTO}`);
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(`Servidor corriendo en puerto ${PORT}`);
 });
