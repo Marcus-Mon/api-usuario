@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "nombre": "Marcus Montilla",
+    "email": "marcusmontilla@email.com",
+    "edad": 20,
+    "activo": true
+  }
+]
